@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/ammit",
     "maintainers": [
       {
@@ -16,111 +16,198 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "ammit",
-    "name": "Ammit - The Devourer of Hearts",
-    "aliases": [],
+    "name": "Ammit",
+    "aliases": [
+      { "name": "Ammut", "language": "Egyptian transliteration" },
+      { "name": "Ahemait", "language": "Egyptian transliteration" },
+      { "name": "Am-mut", "language": "Egyptian transliteration" },
+      { "name": "Devourer of the Dead", "language": "English", "meaning": "literal translation of name" },
+      { "name": "Eater of Hearts", "language": "English", "meaning": "epithet from Book of the Dead" }
+    ],
     "category": "MYTHOLOGICAL_CREATURE",
-    "subcategory": "- rejected aspects of self",
+    "subcategory": "Ancient Egyptian funerary demon",
     "tags": [
-      "folklore",
-      "mythology"
+      "egyptian",
+      "afterlife",
+      "underworld",
+      "duat",
+      "weighing-of-the-heart",
+      "book-of-the-dead",
+      "hybrid-creature"
     ],
     "status": "documented",
     "description": {
-      "summary": "Ammit (also spelled Ammut, Ahemait, or Am-mut) is one of ancient Egypt's most fearsome supernatural entities - a hybrid demon creature that devoured the hearts of the wicked in the afterlife judgment hall.",
-      "full": "Ammit (also spelled Ammut, Ahemait, or Am-mut) is one of ancient Egypt's most fearsome supernatural entities - a hybrid demon creature that devoured the hearts of the wicked in the afterlife judgment hall. Part crocodile, part lion, and part hippopotamus, Ammit represented the ultimate spiritual death: the complete annihilation of the soul. Unlike gods who could be appeased or demons who could be bargained with, Ammit was an implacable force of divine justice that consumed those who failed the weighing of the heart ceremony."
+      "summary": "An ancient Egyptian funerary demon depicted with the head of a crocodile, the foreparts of a lion, and the hindparts of a hippopotamus, who devours the hearts of the unworthy dead in the Hall of Two Truths.",
+      "full": "Ammit (also Ammut, Ahemait) is a hybrid demon-figure of ancient Egyptian funerary religion. Her name is conventionally translated 'Devourer of the Dead' or 'Swallower of the Dead'. She is depicted with the head of a crocodile, the forequarters of a lion (or leopard), and the hindquarters of a hippopotamus — a composite of three of the most dangerous animals known to the Egyptian Nile world. Ammit's role is set in Chapter 125 of the Book of the Dead: in the Hall of Two Truths (the judgment of Osiris) the heart of the deceased is weighed on a scale against the feather of Maat. If the heart proves heavier than truth, Ammit consumes it — annihilating the deceased's existence and denying them the afterlife in the Field of Reeds (Aaru). Ammit was not worshipped, received no temples, and had no priesthood; rather, she was a feared guardian whose presence in tomb and papyrus imagery enforced the moral logic of the judgment. She becomes prominent in funerary iconography from the New Kingdom (especially the 19th Dynasty onward) and is shown beside the scales in such famous papyri as the Papyrus of Ani and the Papyrus of Hunefer."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "Ancient Egyptian, with the verb ʿm 'to swallow / devour' and the participle 'mwt 'the dead'.",
+      "meaning": "'Devourer of the Dead' or 'She who swallows the dead'.",
+      "first_use": "Attested in funerary literature of the New Kingdom (c. 1550–1070 BCE), most prominently in the Book of the Dead."
     }
   },
+
   "classification": {
     "taxonomy": {
       "category": "MYTHOLOGICAL_CREATURE",
-      "type": "- rejected aspects of self",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "type": "Funerary demon",
+      "subtype": "Hybrid devourer",
+      "variant": "Ancient Egyptian"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "anubis", "name": "Anubis", "relationship": "related", "description": "Conducts the weighing of the heart at which Ammit is present" },
+      { "id": "osiris", "name": "Osiris", "relationship": "related", "description": "Presides over the judgment of the dead" },
+      { "id": "maat", "name": "Maat", "relationship": "related", "description": "Goddess of truth whose feather is weighed against the heart" },
+      { "id": "taweret", "name": "Taweret", "relationship": "similar", "description": "Hippopotamus-headed Egyptian protective demoness; iconographic relative" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "coloration": ["greenish-grey", "tawny", "dark"],
+      "features": [
+        { "feature": "Crocodile head", "description": "The head and jaws of a Nile crocodile", "frequency": "always" },
+        { "feature": "Lion / leopard foreparts", "description": "The forelegs and chest of a lion (or, in some depictions, a leopard)", "frequency": "always" },
+        { "feature": "Hippopotamus hindparts", "description": "The hindquarters and rear legs of a hippopotamus", "frequency": "always" }
+      ],
+      "morphology": "Tripartite composite hybrid, drawing each component from a top-tier predator or large dangerous animal of the Nile environment."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Devouring of the heart", "description": "Consumes the heart of the deceased who fails the weighing against Maat's feather, annihilating their existence", "frequency": "always", "evidence_level": "documented" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "variable",
+      "disposition": "aggressive",
+      "social_structure": "solitary",
+      "habitat_preference": ["Hall of Two Truths", "Duat (underworld)"]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Ammit appears in the funerary religion of ancient Egypt, with iconography distributed across tombs, papyri, and temples throughout the Nile Valley and the Egyptian-controlled regions of the New Kingdom.",
+      "continents": ["Africa"],
+      "countries": ["Ancient Egypt"],
+      "regions": ["Nile Valley", "Theban necropolis"]
     },
-    "hotspots": [],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "New Kingdom (c. 1550 BCE)",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "Book of the Dead funerary literature"
+      },
+      "peak_activity_periods": [
+        { "period": "19th–20th Dynasty (c. 1292–1077 BCE)", "description": "Highest concentration of Ammit imagery in Theban funerary papyri" }
+      ]
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Ancient Egyptian funerary religion centred on the cult of Osiris and the moral judgment of the dead.",
+      "earliest_accounts": "Funerary literature of the New Kingdom, especially Chapter 125 ('Negative Confession') of the Book of the Dead.",
+      "folklore_connections": "Iconographically connected to the family of Egyptian protective and threatening hybrid demons (e.g. Taweret)."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "c. 1550 BCE", "event": "Earliest appearance of Ammit in New Kingdom funerary imagery", "significance": "Establishes the figure in the canonical judgment scene", "source": "Book of the Dead corpus" },
+      { "date": "c. 1250 BCE", "event": "Papyrus of Ani is produced (19th Dynasty); Ammit appears beside the scales in the judgment vignette", "significance": "Most famous individual Book of the Dead manuscript depicting Ammit", "source": "British Museum, EA 10470" },
+      { "date": "c. 1280 BCE", "event": "Papyrus of Hunefer (19th Dynasty) depicts the weighing of the heart with Ammit at the foot of the scales", "significance": "Classic visual reference for the Ammit motif", "source": "British Museum, EA 9901" }
+    ],
+    "modern_era": "Ammit is studied as part of Egyptian funerary religion and is widely recognised in popular culture, including the 2022 Marvel Studios series 'Moon Knight' in which Ammit features as a primary antagonist."
   },
+
   "sightings": {
-    "statistics": {
-      "total_documented": 0,
-      "verified": 0,
-      "disputed": 0,
-      "debunked": 0
-    },
     "notable": [],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": [
+      {
+        "id": "ammit-evidence-papyrus-of-ani",
+        "type": "manuscript",
+        "name": "Papyrus of Ani",
+        "date": "c. 1250 BCE",
+        "description": "19th Dynasty Book of the Dead papyrus depicting the weighing of the heart with Ammit beside the scales.",
+        "location": "British Museum, London (EA 10470)",
+        "status": "verified",
+        "source": "British Museum collection record"
+      },
+      {
+        "id": "ammit-evidence-papyrus-of-hunefer",
+        "type": "manuscript",
+        "name": "Papyrus of Hunefer",
+        "date": "c. 1280 BCE",
+        "description": "19th Dynasty Book of the Dead papyrus with one of the best-known judgment vignettes featuring Ammit.",
+        "location": "British Museum, London (EA 9901)",
+        "status": "verified",
+        "source": "British Museum collection record"
+      }
+    ]
   },
+
   "theories": {
-    "paranormal": [],
+    "paranormal": [
+      {
+        "name": "Genuine afterlife agent",
+        "description": "In ancient Egyptian belief, Ammit was a real supernatural agent enforcing moral order in the afterlife.",
+        "proponents": ["Ancient Egyptian funerary religion"],
+        "evidence_cited": ["Book of the Dead", "Tomb iconography"]
+      }
+    ],
     "scientific": [],
-    "skeptical": []
+    "skeptical": [
+      {
+        "name": "Symbolic personification of moral annihilation",
+        "description": "Egyptologists understand Ammit as a symbolic personification of the failed judgment — the annihilation of the unjust soul — rather than a worshipped deity.",
+        "proponents": ["John H. Taylor (British Museum)", "Erik Hornung"],
+        "evidence_cited": ["Absence of Ammit cult, priesthood, or temple", "Iconographic role limited to judgment scenes"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Egyptian Book of the Dead funerary tradition",
+        "New Kingdom tomb-painting tradition"
+      ],
+      "stories": [
+        "The judgment of the deceased before Osiris (Book of the Dead, Chapter 125)"
+      ],
+      "beliefs": "Ammit's threat enforced the moral logic of the negative confession; the dead asserted innocence of forty-two named transgressions before the gods."
     },
     "popular_culture": {
       "literature": [],
-      "film_tv": [],
+      "film_tv": [
+        "Moon Knight (Marvel Studios, 2022) — Ammit as principal antagonist"
+      ],
       "games": [],
       "other": []
     }
   },
+
   "research": {
-    "researchers": [],
-    "organizations": [],
-    "ongoing_studies": "None documented"
+    "researchers": [
+      { "name": "John H. Taylor", "affiliation": "British Museum, Department of Egypt and Sudan", "contribution": "Curatorial and scholarly work on the Book of the Dead and the Papyrus of Ani", "period": "1990s–present" },
+      { "name": "Erik Hornung", "affiliation": "University of Basel (Egyptology)", "contribution": "Synthesis of Egyptian afterlife literature including the role of Ammit", "period": "1960s–2010s" }
+    ],
+    "organizations": [
+      { "name": "British Museum, Department of Egypt and Sudan", "url": "https://www.britishmuseum.org", "focus": "Custodian of major Book of the Dead papyri including Ani and Hunefer" }
+    ]
   },
-  "sources": []
+
+  "sources": [
+    { "id": "wikipedia-ammit", "type": "website", "title": "Ammit", "publication": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Ammit", "accessed": "2026-05-07" },
+    { "id": "taylor-2010", "type": "book", "title": "Journey through the Afterlife: Ancient Egyptian Book of the Dead", "authors": ["John H. Taylor"], "publication": "British Museum Press", "date": "2010", "isbn": "978-0714119892" },
+    { "id": "hornung-1999", "type": "book", "title": "The Ancient Egyptian Books of the Afterlife", "authors": ["Erik Hornung"], "publication": "Cornell University Press", "date": "1999", "isbn": "978-0801485152" }
+  ]
 }
